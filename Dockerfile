@@ -19,7 +19,7 @@ VOLUME ["/mnt/input-dir"]
 VOLUME ["/mnt/output-dir"]
 
 WORKDIR /work
-RUN chmod 777 /work /mnt/output-dir
+RUN chmod 777 /work
 
 ENTRYPOINT ["/usr/local/bin/run_wasp.sh"]
 CMD ["--help"]
