@@ -25,3 +25,8 @@ docker run \
 ```
 
 Note that the folder mounted at `/mnt/input-dir` needs to contain all Level-2 imagery will be used for calculation. Results are written to the folder mounted on `/mnt/output-dir`.
+
+## Acknowledgement
+
+This package is part of project ["Combining Spatially-explicit Simulation of Animal Movement and Earth Observation to Reconcile Agriculture and Wildlife Conservation"](https://github.com/users/LLeiSong/projects/2).
+This project is funded by NASA FINESST program (award number: 80NSSC20K1640).
